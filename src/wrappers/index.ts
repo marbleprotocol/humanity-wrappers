@@ -14,7 +14,7 @@ export * from './mock_erc20';
 export * from './mock_humanity_governance';
 export * from './mock_humanity_registry';
 export * from './mock_target';
-export * from './mock_uniswap';
+export * from './mock_uniswap_exchange';
 export * from './payable_humanity_applicant';
 export * from './safe_math';
 export * from './twitter_humanity_applicant';
