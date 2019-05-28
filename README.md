@@ -4,4 +4,4 @@ This package contains TypeScript contract wrappers and helpers for [HumanityDAO]
 
 ## Installation
 
-`yarn add @0marbleprotocol/humanity-wrappers`
+`yarn add @marbleprotocol/humanity-wrappers`
