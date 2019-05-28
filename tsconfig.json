@@ -38,7 +38,7 @@
   },
   "include": [
     "./globals.d.ts",
+    "./scripts/**/*",
     "./src/**/*",
-    "./test/**/*"
   ]
 }
