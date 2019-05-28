@@ -1,0 +1,706 @@
+{
+  "contractName": "MockTarget",
+  "abi": [
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "value",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [],
+      "name": "setValue",
+      "outputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "data",
+      "outputs": [
+        {
+          "name": "",
+          "type": "bytes"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "metadata": "{\"compiler\":{\"version\":\"0.5.7+commit.6da8b019\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"constant\":true,\"inputs\":[],\"name\":\"value\",\"outputs\":[{\"name\":\"\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[],\"name\":\"setValue\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"data\",\"outputs\":[{\"name\":\"\",\"type\":\"bytes\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/Users/mykel/Developer/marble/humanity/contracts/mock/MockTarget.sol\":\"MockTarget\"},\"evmVersion\":\"byzantium\",\"libraries\":{},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"/Users/mykel/Developer/marble/humanity/contracts/mock/MockTarget.sol\":{\"keccak256\":\"0x78d17d285abfb281a8d9d8d8c71861e559eb02c06be20d2e82fdfded27daa09f\",\"urls\":[\"bzzr://f3a643896d65e83050f7e59341d8470018ff078715c996367aa7c362ff5a2e37\"]}},\"version\":1}",
+  "bytecode": "0x608060405234801561001057600080fd5b506101fd806100206000396000f3fe608060405234801561001057600080fd5b506004361061005d577c010000000000000000000000000000000000000000000000000000000060003504633fa4f24581146100625780634fa519fa1461008057806373d4a13a1461008a575b600080fd5b61006a61009f565b6040516100779190610165565b60405180910390f35b6100886100a5565b005b6100926100ac565b604051610077919061014d565b60005481565b6004600055565b6040805160048152602481019091526020810180517bffffffffffffffffffffffffffffffffffffffffffffffffffffffff167f4fa519fa0000000000000000000000000000000000000000000000000000000017905290565b600061011182610179565b61011b818561017d565b935061012b818560208601610189565b610134816101b9565b9093019392505050565b61014781610186565b82525050565b6020808252810161015e8184610106565b9392505050565b60208101610173828461013e565b92915050565b5190565b90815260200190565b90565b60005b838110156101a457818101518382015260200161018c565b838111156101b3576000848401525b50505050565b601f01601f19169056fea265627a7a72305820f84e165a808f55e61fb816c8aa9982bbe10d0a3a4b65c95eb3affe0380135daa6c6578706572696d656e74616cf50037",
+  "deployedBytecode": "0x608060405234801561001057600080fd5b506004361061005d577c010000000000000000000000000000000000000000000000000000000060003504633fa4f24581146100625780634fa519fa1461008057806373d4a13a1461008a575b600080fd5b61006a61009f565b6040516100779190610165565b60405180910390f35b6100886100a5565b005b6100926100ac565b604051610077919061014d565b60005481565b6004600055565b6040805160048152602481019091526020810180517bffffffffffffffffffffffffffffffffffffffffffffffffffffffff167f4fa519fa0000000000000000000000000000000000000000000000000000000017905290565b600061011182610179565b61011b818561017d565b935061012b818560208601610189565b610134816101b9565b9093019392505050565b61014781610186565b82525050565b6020808252810161015e8184610106565b9392505050565b60208101610173828461013e565b92915050565b5190565b90815260200190565b90565b60005b838110156101a457818101518382015260200161018c565b838111156101b3576000848401525b50505050565b601f01601f19169056fea265627a7a72305820f84e165a808f55e61fb816c8aa9982bbe10d0a3a4b65c95eb3affe0380135daa6c6578706572696d656e74616cf50037",
+  "sourceMap": "113:234:17:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;113:234:17;;;;;;;",
+  "deployedSourceMap": "113:234:17:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;113:234:17;;;;;;;;;;;;;;;;;;;;;;;;;;;;;140:17;;;:::i;:::-;;;;;;;;;;;;;;;;164:53;;;:::i;:::-;;223:121;;;:::i;:::-;;;;;;;;140:17;;;;:::o;164:53::-;209:1;201:5;:9;164:53::o;223:121::-;291:46;;;22:32:-1;6:49;;291:46:17;;;;;;49:4:-1;25:18;;61:17;;291:46:17;182:15:-1;314:22:17;179:29:-1;160:49;;223:121:17;:::o;5:343:-1:-;;115:38;147:5;115:38;;;165:70;228:6;223:3;165:70;;;158:77;;240:52;285:6;280:3;273:4;266:5;262:16;240:52;;;313:29;335:6;313:29;;;304:39;;;;95:253;-1:-1;;;95:253;355:120;438:31;463:5;438:31;;;433:3;426:44;420:55;;;482:297;618:2;632:47;;;603:18;;693:76;603:18;755:6;693:76;;;685:84;589:190;-1:-1;;;589:190;786:213;904:2;889:18;;918:71;893:9;962:6;918:71;;;875:124;;;;;1006:91;1080:12;;1064:33;1105:162;1207:19;;;1256:4;1247:14;;1200:67;1275:79;1344:5;1327:27;1362:268;1427:1;1434:101;1448:6;1445:1;1442:13;1434:101;;;1515:11;;;1509:18;1496:11;;;1489:39;1470:2;1463:10;1434:101;;;1550:6;1547:1;1544:13;1541:2;;;1615:1;1606:6;1601:3;1597:16;1590:27;1541:2;1411:219;;;;;1638:97;1726:2;1706:14;-1:-1;;1702:28;;1686:49",
+  "source": "pragma solidity 0.5.7;\npragma experimental ABIEncoderV2;\n\n\n// @title MockTarget sets a value to test governance.\ncontract MockTarget {\n\n    uint public value;\n\n    function setValue() public {\n        value = 4;\n    }\n\n    function data() public view returns (bytes memory) {\n        return abi.encodeWithSelector(this.setValue.selector);\n    }\n\n}",
+  "sourcePath": "/Users/mykel/Developer/marble/humanity/contracts/mock/MockTarget.sol",
+  "ast": {
+    "absolutePath": "/Users/mykel/Developer/marble/humanity/contracts/mock/MockTarget.sol",
+    "exportedSymbols": {
+      "MockTarget": [
+        1760
+      ]
+    },
+    "id": 1761,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 1735,
+        "literals": [
+          "solidity",
+          "0.5",
+          ".7"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:22:17"
+      },
+      {
+        "id": 1736,
+        "literals": [
+          "experimental",
+          "ABIEncoderV2"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "23:33:17"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 1760,
+        "linearizedBaseContracts": [
+          1760
+        ],
+        "name": "MockTarget",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "constant": false,
+            "id": 1738,
+            "name": "value",
+            "nodeType": "VariableDeclaration",
+            "scope": 1760,
+            "src": "140:17:17",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_uint256",
+              "typeString": "uint256"
+            },
+            "typeName": {
+              "id": 1737,
+              "name": "uint",
+              "nodeType": "ElementaryTypeName",
+              "src": "140:4:17",
+              "typeDescriptions": {
+                "typeIdentifier": "t_uint256",
+                "typeString": "uint256"
+              }
+            },
+            "value": null,
+            "visibility": "public"
+          },
+          {
+            "body": {
+              "id": 1745,
+              "nodeType": "Block",
+              "src": "191:26:17",
+              "statements": [
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "id": 1743,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftHandSide": {
+                      "argumentTypes": null,
+                      "id": 1741,
+                      "name": "value",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 1738,
+                      "src": "201:5:17",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint256",
+                        "typeString": "uint256"
+                      }
+                    },
+                    "nodeType": "Assignment",
+                    "operator": "=",
+                    "rightHandSide": {
+                      "argumentTypes": null,
+                      "hexValue": "34",
+                      "id": 1742,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": true,
+                      "kind": "number",
+                      "lValueRequested": false,
+                      "nodeType": "Literal",
+                      "src": "209:1:17",
+                      "subdenomination": null,
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_rational_4_by_1",
+                        "typeString": "int_const 4"
+                      },
+                      "value": "4"
+                    },
+                    "src": "201:9:17",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "id": 1744,
+                  "nodeType": "ExpressionStatement",
+                  "src": "201:9:17"
+                }
+              ]
+            },
+            "documentation": null,
+            "id": 1746,
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "setValue",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 1739,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "181:2:17"
+            },
+            "returnParameters": {
+              "id": 1740,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "191:0:17"
+            },
+            "scope": 1760,
+            "src": "164:53:17",
+            "stateMutability": "nonpayable",
+            "superFunction": null,
+            "visibility": "public"
+          },
+          {
+            "body": {
+              "id": 1758,
+              "nodeType": "Block",
+              "src": "274:70:17",
+              "statements": [
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "arguments": [
+                      {
+                        "argumentTypes": null,
+                        "expression": {
+                          "argumentTypes": null,
+                          "expression": {
+                            "argumentTypes": null,
+                            "id": 1753,
+                            "name": "this",
+                            "nodeType": "Identifier",
+                            "overloadedDeclarations": [],
+                            "referencedDeclaration": 2537,
+                            "src": "314:4:17",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_contract$_MockTarget_$1760",
+                              "typeString": "contract MockTarget"
+                            }
+                          },
+                          "id": 1754,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": false,
+                          "lValueRequested": false,
+                          "memberName": "setValue",
+                          "nodeType": "MemberAccess",
+                          "referencedDeclaration": 1746,
+                          "src": "314:13:17",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_function_external_nonpayable$__$returns$__$",
+                            "typeString": "function () external"
+                          }
+                        },
+                        "id": 1755,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": false,
+                        "lValueRequested": false,
+                        "memberName": "selector",
+                        "nodeType": "MemberAccess",
+                        "referencedDeclaration": null,
+                        "src": "314:22:17",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_bytes4",
+                          "typeString": "bytes4"
+                        }
+                      }
+                    ],
+                    "expression": {
+                      "argumentTypes": [
+                        {
+                          "typeIdentifier": "t_bytes4",
+                          "typeString": "bytes4"
+                        }
+                      ],
+                      "expression": {
+                        "argumentTypes": null,
+                        "id": 1751,
+                        "name": "abi",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 2470,
+                        "src": "291:3:17",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_magic_abi",
+                          "typeString": "abi"
+                        }
+                      },
+                      "id": 1752,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": true,
+                      "lValueRequested": false,
+                      "memberName": "encodeWithSelector",
+                      "nodeType": "MemberAccess",
+                      "referencedDeclaration": null,
+                      "src": "291:22:17",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_abiencodewithselector_pure$_t_bytes4_$returns$_t_bytes_memory_ptr_$",
+                        "typeString": "function (bytes4) pure returns (bytes memory)"
+                      }
+                    },
+                    "id": 1756,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "291:46:17",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bytes_memory_ptr",
+                      "typeString": "bytes memory"
+                    }
+                  },
+                  "functionReturnParameters": 1750,
+                  "id": 1757,
+                  "nodeType": "Return",
+                  "src": "284:53:17"
+                }
+              ]
+            },
+            "documentation": null,
+            "id": 1759,
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "data",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 1747,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "236:2:17"
+            },
+            "returnParameters": {
+              "id": 1750,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 1749,
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 1759,
+                  "src": "260:12:17",
+                  "stateVariable": false,
+                  "storageLocation": "memory",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bytes_memory_ptr",
+                    "typeString": "bytes"
+                  },
+                  "typeName": {
+                    "id": 1748,
+                    "name": "bytes",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "260:5:17",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bytes_storage_ptr",
+                      "typeString": "bytes"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "259:14:17"
+            },
+            "scope": 1760,
+            "src": "223:121:17",
+            "stateMutability": "view",
+            "superFunction": null,
+            "visibility": "public"
+          }
+        ],
+        "scope": 1761,
+        "src": "113:234:17"
+      }
+    ],
+    "src": "0:347:17"
+  },
+  "legacyAST": {
+    "absolutePath": "/Users/mykel/Developer/marble/humanity/contracts/mock/MockTarget.sol",
+    "exportedSymbols": {
+      "MockTarget": [
+        1760
+      ]
+    },
+    "id": 1761,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 1735,
+        "literals": [
+          "solidity",
+          "0.5",
+          ".7"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:22:17"
+      },
+      {
+        "id": 1736,
+        "literals": [
+          "experimental",
+          "ABIEncoderV2"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "23:33:17"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 1760,
+        "linearizedBaseContracts": [
+          1760
+        ],
+        "name": "MockTarget",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "constant": false,
+            "id": 1738,
+            "name": "value",
+            "nodeType": "VariableDeclaration",
+            "scope": 1760,
+            "src": "140:17:17",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_uint256",
+              "typeString": "uint256"
+            },
+            "typeName": {
+              "id": 1737,
+              "name": "uint",
+              "nodeType": "ElementaryTypeName",
+              "src": "140:4:17",
+              "typeDescriptions": {
+                "typeIdentifier": "t_uint256",
+                "typeString": "uint256"
+              }
+            },
+            "value": null,
+            "visibility": "public"
+          },
+          {
+            "body": {
+              "id": 1745,
+              "nodeType": "Block",
+              "src": "191:26:17",
+              "statements": [
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "id": 1743,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftHandSide": {
+                      "argumentTypes": null,
+                      "id": 1741,
+                      "name": "value",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 1738,
+                      "src": "201:5:17",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint256",
+                        "typeString": "uint256"
+                      }
+                    },
+                    "nodeType": "Assignment",
+                    "operator": "=",
+                    "rightHandSide": {
+                      "argumentTypes": null,
+                      "hexValue": "34",
+                      "id": 1742,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": true,
+                      "kind": "number",
+                      "lValueRequested": false,
+                      "nodeType": "Literal",
+                      "src": "209:1:17",
+                      "subdenomination": null,
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_rational_4_by_1",
+                        "typeString": "int_const 4"
+                      },
+                      "value": "4"
+                    },
+                    "src": "201:9:17",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "id": 1744,
+                  "nodeType": "ExpressionStatement",
+                  "src": "201:9:17"
+                }
+              ]
+            },
+            "documentation": null,
+            "id": 1746,
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "setValue",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 1739,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "181:2:17"
+            },
+            "returnParameters": {
+              "id": 1740,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "191:0:17"
+            },
+            "scope": 1760,
+            "src": "164:53:17",
+            "stateMutability": "nonpayable",
+            "superFunction": null,
+            "visibility": "public"
+          },
+          {
+            "body": {
+              "id": 1758,
+              "nodeType": "Block",
+              "src": "274:70:17",
+              "statements": [
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "arguments": [
+                      {
+                        "argumentTypes": null,
+                        "expression": {
+                          "argumentTypes": null,
+                          "expression": {
+                            "argumentTypes": null,
+                            "id": 1753,
+                            "name": "this",
+                            "nodeType": "Identifier",
+                            "overloadedDeclarations": [],
+                            "referencedDeclaration": 2537,
+                            "src": "314:4:17",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_contract$_MockTarget_$1760",
+                              "typeString": "contract MockTarget"
+                            }
+                          },
+                          "id": 1754,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": false,
+                          "lValueRequested": false,
+                          "memberName": "setValue",
+                          "nodeType": "MemberAccess",
+                          "referencedDeclaration": 1746,
+                          "src": "314:13:17",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_function_external_nonpayable$__$returns$__$",
+                            "typeString": "function () external"
+                          }
+                        },
+                        "id": 1755,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": false,
+                        "lValueRequested": false,
+                        "memberName": "selector",
+                        "nodeType": "MemberAccess",
+                        "referencedDeclaration": null,
+                        "src": "314:22:17",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_bytes4",
+                          "typeString": "bytes4"
+                        }
+                      }
+                    ],
+                    "expression": {
+                      "argumentTypes": [
+                        {
+                          "typeIdentifier": "t_bytes4",
+                          "typeString": "bytes4"
+                        }
+                      ],
+                      "expression": {
+                        "argumentTypes": null,
+                        "id": 1751,
+                        "name": "abi",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 2470,
+                        "src": "291:3:17",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_magic_abi",
+                          "typeString": "abi"
+                        }
+                      },
+                      "id": 1752,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": true,
+                      "lValueRequested": false,
+                      "memberName": "encodeWithSelector",
+                      "nodeType": "MemberAccess",
+                      "referencedDeclaration": null,
+                      "src": "291:22:17",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_abiencodewithselector_pure$_t_bytes4_$returns$_t_bytes_memory_ptr_$",
+                        "typeString": "function (bytes4) pure returns (bytes memory)"
+                      }
+                    },
+                    "id": 1756,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "291:46:17",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bytes_memory_ptr",
+                      "typeString": "bytes memory"
+                    }
+                  },
+                  "functionReturnParameters": 1750,
+                  "id": 1757,
+                  "nodeType": "Return",
+                  "src": "284:53:17"
+                }
+              ]
+            },
+            "documentation": null,
+            "id": 1759,
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "data",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 1747,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "236:2:17"
+            },
+            "returnParameters": {
+              "id": 1750,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 1749,
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 1759,
+                  "src": "260:12:17",
+                  "stateVariable": false,
+                  "storageLocation": "memory",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bytes_memory_ptr",
+                    "typeString": "bytes"
+                  },
+                  "typeName": {
+                    "id": 1748,
+                    "name": "bytes",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "260:5:17",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bytes_storage_ptr",
+                      "typeString": "bytes"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "259:14:17"
+            },
+            "scope": 1760,
+            "src": "223:121:17",
+            "stateMutability": "view",
+            "superFunction": null,
+            "visibility": "public"
+          }
+        ],
+        "scope": 1761,
+        "src": "113:234:17"
+      }
+    ],
+    "src": "0:347:17"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.5.7+commit.6da8b019.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.0.6",
+  "updatedAt": "2019-05-24T19:50:59.206Z",
+  "devdoc": {
+    "methods": {}
+  },
+  "userdoc": {
+    "methods": {}
+  }
+}

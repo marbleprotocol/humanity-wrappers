@@ -1,0 +1,102 @@
+{
+  "contractName": "Void",
+  "abi": [],
+  "metadata": "{\"compiler\":{\"version\":\"0.5.7+commit.6da8b019\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/Users/mykel/Developer/marble/humanity/contracts/Void.sol\":\"Void\"},\"evmVersion\":\"byzantium\",\"libraries\":{},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"/Users/mykel/Developer/marble/humanity/contracts/Void.sol\":{\"keccak256\":\"0x6231381f8a5e6d54c6a05a341eb07f8dc73691b4237f15337a1aca2616a6504a\",\"urls\":[\"bzzr://56da613317786f2fcefd531874563d46c275b5b80b801f40a361402688b8b215\"]}},\"version\":1}",
+  "bytecode": "0x6080604052348015600f57600080fd5b50603580601d6000396000f3fe6080604052600080fdfea165627a7a72305820f30cea1ec0958caf037f46dfcf2704f2dbe8e8e811029fef754160bf2658b3fe0029",
+  "deployedBytecode": "0x6080604052600080fdfea165627a7a72305820f30cea1ec0958caf037f46dfcf2704f2dbe8e8e811029fef754160bf2658b3fe0029",
+  "sourceMap": "71:16:9:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;71:16:9;;;;;;;",
+  "deployedSourceMap": "71:16:9:-;;;;;",
+  "source": "pragma solidity 0.5.7;\n\n\n// @title Void collects failed proposal fees.\ncontract Void {}",
+  "sourcePath": "/Users/mykel/Developer/marble/humanity/contracts/Void.sol",
+  "ast": {
+    "absolutePath": "/Users/mykel/Developer/marble/humanity/contracts/Void.sol",
+    "exportedSymbols": {
+      "Void": [
+        1589
+      ]
+    },
+    "id": 1590,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 1588,
+        "literals": [
+          "solidity",
+          "0.5",
+          ".7"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:22:9"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 1589,
+        "linearizedBaseContracts": [
+          1589
+        ],
+        "name": "Void",
+        "nodeType": "ContractDefinition",
+        "nodes": [],
+        "scope": 1590,
+        "src": "71:16:9"
+      }
+    ],
+    "src": "0:87:9"
+  },
+  "legacyAST": {
+    "absolutePath": "/Users/mykel/Developer/marble/humanity/contracts/Void.sol",
+    "exportedSymbols": {
+      "Void": [
+        1589
+      ]
+    },
+    "id": 1590,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 1588,
+        "literals": [
+          "solidity",
+          "0.5",
+          ".7"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:22:9"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 1589,
+        "linearizedBaseContracts": [
+          1589
+        ],
+        "name": "Void",
+        "nodeType": "ContractDefinition",
+        "nodes": [],
+        "scope": 1590,
+        "src": "71:16:9"
+      }
+    ],
+    "src": "0:87:9"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.5.7+commit.6da8b019.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.0.6",
+  "updatedAt": "2019-05-24T19:50:59.205Z",
+  "devdoc": {
+    "methods": {}
+  },
+  "userdoc": {
+    "methods": {}
+  }
+}

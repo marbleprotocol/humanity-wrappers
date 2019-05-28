@@ -1,0 +1,19 @@
+# Tests
+test
+coverage
+
+# Environment
+.env
+
+# OSX
+.DS_Store
+
+# Source
+src/
+
+# Typescript
+tsconfig.json
+tslint.json
+
+# Linting
+.prettierrc
