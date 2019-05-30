@@ -23,10 +23,9 @@ import {
 config();
 
 const getAddress = (deployer: string, nonce: number): string => {
-  return `0x
-    ${solidityKeccak256(['bytes'], [rlp.encode([deployer, nonce])])
-      .slice(12)
-      .substring(14)}`;
+  return `0x${solidityKeccak256(['bytes'], [rlp.encode([deployer, nonce])])
+    .slice(12)
+    .substring(14)}`;
 };
 
 const getNonce = async (web3Wrapper: any, account: string): Promise<number> => {
